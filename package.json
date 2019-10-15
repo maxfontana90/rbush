@@ -1,0 +1,17 @@
+{
+  "name": "rbush",
+  "version": "0.0.1",
+  "description": "An RBush custom extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.js --require ./tests/mocha-loader.js"
+  },
+  "author": "Maximiliano A. Fontana",
+  "dependencies": {
+    "rbush": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  }
+}
